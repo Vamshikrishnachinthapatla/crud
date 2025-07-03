@@ -61,5 +61,7 @@ A full-stack web application built using **Python** and **Django** to manage stu
    '''bash
    
    python manage.py runserver
+
+6. Visit http://127.0.0.1:8000/ in your browser.
    
    
