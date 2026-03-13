@@ -56,6 +56,9 @@ def deleteData(request,id):
 def hello(request):
     return HttpResponse("hi mate goodmorning")
 
+def hola(request):
+    return HttpResponse("Hola its leo messi")
+
 def about(request):
     return render(request,"about.html")
 
