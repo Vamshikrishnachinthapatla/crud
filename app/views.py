@@ -1,5 +1,6 @@
 from django.shortcuts import render,redirect
 from .models import Student
+from django.http import HttpResponse
 
 from django.contrib import messages
 
@@ -50,6 +51,10 @@ def deleteData(request,id):
     d.delete()
     messages.error(request,"Data deleted Successfully")
     return redirect("/")
+
+
+def hello(request):
+    return HttpResponse("hi mate goodmorning")
 
 def about(request):
     return render(request,"about.html")
