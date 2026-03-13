@@ -51,6 +51,8 @@ def deleteData(request,id):
     d.delete()
     messages.error(request,"Data deleted Successfully")
     return redirect("/")
+def hello(request):
+    return HttpResponse("OLA IAM MESSI")
 
 def about(request):
     return render(request,"about.html")
