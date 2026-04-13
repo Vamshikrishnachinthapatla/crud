@@ -58,7 +58,7 @@ A full-stack web application built using **Python** and **Django** to manage stu
 
 5. Start the development server:
 
-   '''bash
+   ''' bash
    
    python manage.py runserver
 
